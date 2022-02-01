@@ -1,2 +1,2 @@
 # Stacks
-Stacks Interview Questions
+Stacks Hackerrank Problems
