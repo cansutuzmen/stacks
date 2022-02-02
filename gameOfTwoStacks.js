@@ -1,4 +1,7 @@
 //HackerRank - Game of Two Stacks Question
+/*
+https://www.hackerrank.com/challenges/game-of-two-stacks/problem
+*/
 
 class Stack {
     constructor(){
