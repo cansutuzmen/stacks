@@ -1,4 +1,7 @@
 //Hackerrank getMax Question
+/*
+https://www.hackerrank.com/challenges/maximum-element/problem
+*/
 
 function getMax(operations) {
     let stack = [];
