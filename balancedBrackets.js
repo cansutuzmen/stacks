@@ -1,4 +1,7 @@
 //Hackerrank - Balanced Brackets Question
+/*
+https://www.hackerrank.com/challenges/balanced-brackets/problem
+*/
 
 class Stack {
     constructor(){
@@ -41,15 +44,12 @@ function isBalanced(s) {
                 return 'NO';
             }
         }
-        
         if(bracketPairs[brackets[i]]){
             stack.push(bracketPairs[brackets[i]]);
         }
     }
-    
-    if(stack.isEmpty()){
-        return 'YES';
-    }
-    
-    return 'NO';
+     
+    return stack.isEmpty() ? 'YES' : 'NO';
 }
+
+
