@@ -1,4 +1,8 @@
 //Hackerrank - Equal Stacks Question
+/*
+https://www.hackerrank.com/challenges/equal-stacks/problem
+*/
+
 
 class Stack {
   constructor(){
@@ -64,3 +68,7 @@ function equalStacks(h1, h2, h3) {
     
     return totalHeight;
 }
+
+
+
+
