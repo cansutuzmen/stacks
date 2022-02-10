@@ -18,6 +18,9 @@ class Stack {
         this.array.pop();
         return this;
     } 
+    isEmpty(){
+        return !this.array.length ? true : false;
+    }
 }
 
 function createBracketPairs(){
